@@ -1,0 +1,78 @@
+body {color: rgb(198, 198, 198);background-color: rgb(155, 3, 3);font-family: Arial, Helvetica, sans-serif; }
+#intro {font-size: xx-large; text-align: center;}
+#nav {font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+#kolom1 {background-color: rgb(209, 1, 1);}
+#kolommen {background-color: rgb(243, 0, 0);}
+#footer1 {font-size: x-small;text-align: end;}
+header {
+  background-color: WhiteSmoke;
+  background-image: url("https://source.unsplash.com/random/400x300/?white");
+  background-size: cover;
+  background-position: center;
+}
+
+header h1 {
+  padding: 32px;
+  letter-spacing: 2ch;
+}
+
+header nav {
+  background-color: rgb(255, 0, 0);
+}
+
+nav li {
+  display: inline-block; /* list items komen naast elkaar te staan */
+}
+
+nav a {
+  display: block; /* anchor elementen kunnen zo grootte krijgen */
+  color: rgb(0, 0, 0);
+  padding: 24px;
+}
+
+nav a:hover {
+  background-color: rgb(247, 214, 165)
+  color: rgb(0, 0, 0);
+}
+
+/* vormgeving website en inhoud */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(255, 148, 148);
+  color: DarkSlateGray;
+  font-family: monospace;
+  line-height: 1.5;
+  margin: 0 12px;
+}
+
+main {
+  background-color: rgb(251, 145, 145);
+  padding: 16px 0;
+}
+
+section {
+  min-height: 22vh;
+  padding: 32px 40px;
+}
+
+section * {
+  margin-bottom: 20px;
+}
+
+section p {
+  max-width: 70ch;
+}
+
+header h1 a {
+  text-decoration: none;
+}
+
+header h1 a:hover {
+  color: MidnightBlue;
+}
