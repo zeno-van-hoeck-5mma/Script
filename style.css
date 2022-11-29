@@ -1,0 +1,79 @@
+html{
+    background-color: rgb(255, 0, 0);
+    color: whitesmoke;
+    font-family: el messiri;
+}
+h1{
+    font-family: Alphabetized Cassette Tapes;
+    text-align: center;
+    font-size: 100px;
+    margin: auto;
+}
+h2{
+    font-size: 40px;
+    margin: auto;
+    text-decoration: underline;
+}
+p{
+    margin: auto;
+    font-size: 16px;
+}
+#flexbox{
+    display: flex;
+    background-color: #ffe100;
+    padding: 4%;
+    margin: 50px;
+    flex-direction: row;
+    width: 50vw;
+    margin: auto;
+}
+a{
+    color: #ffffff;
+    font-size: 16px;
+}
+.artikel:hover{
+    color: #ffffff;
+    border-color: #149900;
+    border-width: 2px;
+    border-style: dashed;
+}
+.matchapp:hover{
+    color: #ffffff;
+    border-color: #149900;
+    border-width: 2px;
+    border-style: dashed;
+}
+.bandsite:hover{
+    color: #ffffff;
+    border-color: #149900;
+    border-width: 2px;
+    border-style: dashed;
+}
+li{
+    color: #149900;
+    margin: auto;
+    list-style: none;
+    text-align: center;
+}
+.col-left {
+    display: block;
+    text-align: left;
+    width: 50vw;
+}
+.col-right{
+    display: block;
+    text-align: right;
+    width: 50vw;
+}
+footer{
+    width: 40vw;
+    margin: auto;
+    text-align: center;
+    background-color: #ffe100;
+}
+.footer:hover{
+    color: #ffe100;
+    border-color: #149900;
+    border-width: 2px;
+    border-style: dashed;
+}
