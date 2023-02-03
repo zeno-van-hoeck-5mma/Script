@@ -43,4 +43,18 @@ a{
     box-sizing: border-box;
     padding: 0;
 }
-
+.videoframe {
+    overflow: hidden;
+    max-height: 50vh;
+  }
+  
+  video {
+    width: 100%;
+  }
+  img{
+    width: 100%;
+    padding: 3%;
+  }
+  p{
+    padding: 5%;
+  }
