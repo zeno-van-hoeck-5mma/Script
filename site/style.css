@@ -1,0 +1,41 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.6em;
+    color: #333;
+  }
+  
+  header {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2em;
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 2em;
+    font-weight: 600;
+    margin: 0;
+    text-transform: uppercase;
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    margin-left: 1.5em;
+  
