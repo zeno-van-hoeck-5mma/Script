@@ -78,3 +78,11 @@ button{
     color: aliceblue;
     border-width: 0rem;
 }
+.bgc-highlights {
+    background-color: #ffeedd;
+    padding: 2%;
+    background-image: url(images/foto5.webp);
+    color: aliceblue;
+}
+
+
