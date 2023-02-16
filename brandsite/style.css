@@ -61,3 +61,20 @@ p{
 h3{
     padding: 3%;
 }
+figure {
+    position: relative;
+    width: 33%;
+
+}
+figcaption {
+    position: absolute;
+    bottom: 12%;
+    left: 15%   
+}
+button{
+    width: 4rem;
+    height: 2rem;
+    background-color: rgba(0, 0, 0, 0);
+    color: aliceblue;
+    border-width: 0rem;
+}

@@ -1,41 +1,114 @@
-body {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1.6em;
-    color: #333;
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header Styles */
+header {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.row-1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 20vh;
+  padding: 0 20px;
+}
+
+.row-2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 70vh;
+  padding: 0 20px;
+}
+
+.row-3 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 10vh;
+  padding: 0 20px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+.hero-section {
+  width: 50%;
+}
+
+.hero-section h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.hero-section h2 {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.hero-section p {
+  font-size: 1em;
+  margin-bottom: 20px;
+}
+
+.cta-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.cta-btn:hover {
+  background-color: #555;
+}
+
+.social-media-icons {
+  font-size: 2em;
+  display: flex;
+}
+
+.social-media-icons a {
+  color: #333;
+  margin-right: 20px;
+}
+
+.social-media-icons a:hover {
+  color: #555;
+}
+
+@media screen and (max-width: 768px) {
+  .hero-section {
+    width: 100%;
   }
-  
-  header {
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 2em;
-  }
-  
-  .logo-container {
-    display: flex;
-    align-items: center;
-  }
-  
-  .logo {
-    font-size: 2em;
-    font-weight: 600;
-    margin: 0;
-    text-transform: uppercase;
-  }
-  
-  nav {
-    display: flex;
-    align-items: center;
-  }
-  
-  nav ul {
-    list-style: none;
-    display: flex;
-    margin: 0;
-    padding: 0;
-  }
-  
-  nav li {
-    margin-left: 1.5em;
-  
+}
+img{
+  width: 20%;
+}
+body{
+  background-color: #037dff;
+}
