@@ -85,3 +85,37 @@ button{
     color: aliceblue;
 }
 
+footer {
+    padding: 20px;
+    background-color: black;
+    font-size: 14px;
+    color: aliceblue;
+}
+
+footer li {
+    list-style: none;
+}
+footer .flex-container:first-child {
+    margin-bottom: 2rem;
+}
+
+footer ul li {
+    font-size: 0.8rem;
+    line-height: 2;
+    list-style-type: none;
+}
+
+footer ul li:first-child a, footer ul:first-child li a {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+footer i {
+    margin-left: 1ch;
+    font-size: 1.6rem;
+}
+
+footer i:hover {
+    transform: scale(1.1);
+}
