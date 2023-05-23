@@ -39,12 +39,6 @@ img {
     justify-content: center;
 }
 
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2rem;
-    padding-left: 60px;
-}
 footer {
     padding: 20px;
     background-color: black;
@@ -55,15 +49,19 @@ footer {
 footer li {
     list-style: none;
 }
+
 footer .flex-container:first-child {
     margin-bottom: 2rem;
 }
-footer ul li:first-child a, footer ul:first-child li a {
+
+footer ul li:first-child a,
+footer ul:first-child li a {
     color: #fff;
     font-size: 1rem;
     font-weight: 600;
     text-transform: uppercase;
 }
+
 footer i {
     margin-left: 1ch;
     font-size: 1.6rem;
@@ -71,4 +69,21 @@ footer i {
 
 footer i:hover {
     transform: scale(1.1);
+}
+
+.grid-container {
+    background-color: rgb(190, 4, 4);
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    color: aliceblue;
+}
+
+img {
+    align-items: center;
+    width: 30%;
+    padding-left: 1%;
+}
+iframe{
+    align-items: center;
 }
