@@ -63,8 +63,8 @@ footer ul:first-child li a {
 }
 
 footer i {
-    margin-left: 1ch;
-    font-size: 1.6rem;
+    margin-left: 1.5ch;
+    font-size: 1.1rem;
 }
 
 footer i:hover {
@@ -79,11 +79,36 @@ footer i:hover {
     color: aliceblue;
 }
 
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    padding: 5%
+}
+
 img {
     align-items: center;
-    width: 30%;
+    width: 70%;
     padding-left: 1%;
 }
-iframe{
+
+.videoframe {
+    overflow: hidden;
+    max-height: 50vh;
+  }
+  
+  video {
+    width: 100%;
+  }
+
+  h2{
+    padding: 5%;
+    align-items: center;
+  }
+  body i {
+    margin-left: 1.5ch;
+    font-size: 1.1rem;
+    color: aliceblue;
     align-items: center;
 }
+
