@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Label-Festival</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 
 <body>
@@ -19,22 +20,26 @@
         <div class="logo">
             <img src="static svg/ZenoVanHoeck_5MMa_Logo.svg" alt="Label-Festival">
         </div>
-        <nav>
-            <ul>
-                <li><a href="#">Line-up 2023</a></li>
-                <li><a href="#">FAQ</a></li>
-                <li><a href="#">Nieuws</a></li>
-                <li><a href="#">Koop tickets</a></li>
-            </ul>
-        </nav>
-    </header>
+        <input type="checkbox" id="burger">
+        <label for="burger">
+            <i class="fa fa-bars" id="bars"></i>
+        </label>
+    <nav>
+        <ul>
+            <li><a href="#">Line-up 2023</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Koop tickets</a></li>
+        </ul>
+    </nav>
+</header>
 
     <main>
         <section id="lineup">
             <div class="grid-container">
                 <div class="grid-card">
-                        <img src="static svg/download (2).jfif" alt="dj">
-                        <h3 class="act">NF</h3>
+                        <a href="act.html"><img src="static svg/download (2).jfif" alt="dj">
+                        <h3 class="act">NF</h3></a>
                     </a>
                     <a href="act.html" class="venue">Main stage</a>
                     <a href="act.html" class="date">fri 18 Aug</a>

@@ -111,4 +111,54 @@ img {
     color: aliceblue;
     align-items: center;
 }
+header label[for="burger"] i {
+    margin: 0;
+    font-size: 1.25rem;
+}
+header input#burger {
+    display: none;
+  }
+  
+  header label[for="burger"] {
+    display: none;
+  }
+  
+  header label[for="burger"] i {
+    font-size: 2rem;
+    margin-right: 10%;
+  }
+  
 
+  @media (width <=750px) {
+    header label[for="burger"] {
+        display: block;
+        position: fixed;
+        z-index: 3;
+        top: 0;
+        right: 0;
+        width: 100%;
+        padding: 1rem 1ch;
+        background-color: var(--bgc-02);
+        text-align: right;
+        cursor: pointer;
+      }
+    
+      header nav ul {
+        position: fixed;
+        z-index: 3;
+        top: 3rem;
+        right: 0;
+        display: none;
+        padding-right: 1ch;
+        width: 100%;
+        background-color: var(--bgc-02);
+        text-align: right;
+        user-select: none;
+      }
+    
+      header input#burger:checked + label[for="burger"] + nav {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+      }
+  }
